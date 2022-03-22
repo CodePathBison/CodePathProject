@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+An app to allow Black parents to find Black babysitters in their area.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
