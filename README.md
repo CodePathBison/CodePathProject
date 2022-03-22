@@ -28,10 +28,9 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* [] List availability for babysitting
-* [] Scroll through available babysitters
-* [] Book a babysitter
+* List availability for babysitting
+* Scroll through available babysitters
+* Book a babysitter
 
 **Optional Nice-to-have Stories**
 
@@ -51,9 +50,9 @@ Original App Design Project - README Template
 
 **Tab Navigation** (Tab to Screen)
 
-* [Available Babysitters]
-* [Bookings]
-* [Profile]
+* Available Babysitters
+* Bookings
+* Profile
 
 **Flow Navigation** (Screen to Screen)
 
