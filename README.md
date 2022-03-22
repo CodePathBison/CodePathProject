@@ -15,10 +15,10 @@ Original App Design Project - README Template
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
+- **Category:** Business
 - **Mobile:**
 - **Story:**
-- **Market:**
+- **Market:** People with kids
 - **Habit:**
 - **Scope:**
 
@@ -29,12 +29,14 @@ Original App Design Project - README Template
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* ...
+* [] List availability for babysitting
+* [] Scroll through available babysitters
+* [] Book a babysitter
 
 **Optional Nice-to-have Stories**
 
 * [fill in your required user stories here]
-* ...
+
 
 ### 2. Screen Archetypes
 
@@ -49,9 +51,9 @@ Original App Design Project - README Template
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* [Available Babysitters]
+* [Bookings]
+* [Profile]
 
 **Flow Navigation** (Screen to Screen)
 
