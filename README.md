@@ -41,7 +41,7 @@ An app to allow Black parents to find Black babysitters in their area.
 * Login/Sign Up
    * Users can sign up or login
 * Stream
-   * Users can scroll though available babysitters
+   * Users can scroll through available babysitters
 * Detail
    * Users can look more into a babysitter's profile and book
 * Creation
@@ -77,11 +77,10 @@ An app to allow Black parents to find Black babysitters in their area.
    * Location
 * Profile
    * Preferences 
-   * ...
    
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://lh3.googleusercontent.com/z2FbPI0om0XMrCdEtD1LwVk1PG4tZIJNh7DvxWggRirpHHaZtCs_lQS0_Fi3KQDKI-JakXIsa5cMSRYfzcnuJoDcezzeZtilJVsf_xOkHGNKxmEWDjRE9Uash56TT79q7yfJFIR7ibseGk497Hu0_f37W1v04vLFo4K5QQn-QprZ_OucLusKyxs7qpzvyomcAEthYGvDU1A12Vt-8gDKAf-zeWuE4QHiC1zO9LQ6MuaWhXAMBNirVtOk3JTNOodNXtrcqg4mVkbBBUjZUJdtVEhzFwBVNtsWw_5pOaHDGaHPSwgQnrkR2Jwf-Wpdt2UndxV7ZSS8HAEILxjPjo0D8IpAaLWbal4Px9hi8O3yk3BmFYpu_DUTEe-kJUGIC3xs4DikqJYoh75CcjXD-mrQhMFd9mXVsRos81SoacKZF3_B1tkug960W4qSSscgX6OrtWeSJ3kY_E7JJx7tTHtqGq395SSNVyiGJbSHNL8B-QBouYWKfzcbvaantLsU4rk07jiCMXY7gUNJU9OXkWngJtMGhvjRIPy9CPK3AJykwXf2wC4x8OB776gf3JzBEuzPfFxN654-6QRtqc1ZWSyNJkes1tCNw_JmkE5VdQjb3MLjWQ9TtyV9AOy1KKHJlLIeKx4SE9-obLwQLrIJkiwIzf7ykP3xC2_jdTbrZh2ke9WlmA6bMR1hfThcONdW7DCKuRKjqMng-LmBpa7Lfl4IRuj4eYNrd-ZC-j-MrAkwh-tYmCLEOpLM8DACGb9s_UG6H7kYIvILY-7Tv8X5ABSeF-vX-9N5wrr_40A=w1902-h1446-no?authuser=0" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
