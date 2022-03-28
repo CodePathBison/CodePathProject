@@ -16,11 +16,11 @@ An app to allow Black parents to find Black babysitters in their area.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Business
-- **Mobile:**
-- **Story:**
-- **Market:** People with kids
-- **Habit:**
-- **Scope:**
+- **Mobile:** Mobile first experience
+- **Story:** Allows users to search for Black babysitters or for babysitting gigs
+- **Market:** People with Black children
+- **Habit:** Not very habit forming. Users either look for new babysitters or search for gigs. Habits could possibly form while looking for multiple gigs but may subside after repeated bookings
+- **Scope:** The scope is very narrow, just booking/searching.
 
 ## Product Spec
 
@@ -28,7 +28,8 @@ An app to allow Black parents to find Black babysitters in their area.
 
 **Required Must-have Stories**
 
-* List availability for babysitting
+* Create an account
+* List availability/rates for babysitting
 * Scroll through available babysitters
 * Book a babysitter
 
