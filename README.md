@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Babysitter App
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -14,12 +14,11 @@ Original App Design Project - README Template
 An app to allow Black parents to find Black babysitters in their area.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Business
 - **Mobile:** Mobile first experience
 - **Story:** Allows users to search for Black babysitters or for babysitting gigs
 - **Market:** People with Black children
-- **Habit:** Not very habit forming. Users either look for new babysitters or search for gigs. Habits could possibly form while looking for multiple gigs but may subside after repeated bookings
+- **Habit:** Not very habit forming. Users either look for new babysitters or search for gigs. Habits could possibly form while looking for multiple gigs but may subside after repeated bookings.
 - **Scope:** The scope is very narrow, just booking/searching.
 
 ## Product Spec
@@ -28,7 +27,7 @@ An app to allow Black parents to find Black babysitters in their area.
 
 **Required Must-have Stories**
 
-* Create an account
+* Create an account/Login
 * List availability/rates for babysitting
 * Scroll through available babysitters
 * Book a babysitter
@@ -36,16 +35,20 @@ An app to allow Black parents to find Black babysitters in their area.
 **Optional Nice-to-have Stories**
 
 * [fill in your required user stories here]
-
+* ...
 
 ### 2. Screen Archetypes
+* Login/Sign Up
+   * Users can sign up or login
+* Stream
+   * Users can scroll though available babysitters
+* Detail
+   * Users can look more into a babysitter's profile and book
+* Creation
+   * Users can list their availabilities/rates
+* Profile
+   * Users can view their identity
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
 
 ### 3. Navigation
 
@@ -57,13 +60,25 @@ An app to allow Black parents to find Black babysitters in their area.
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
+* Login/Sign Up
+   * Login
+   * Register New Account
+* Stream
+   * Proximity
+   * Rates
+* Detail
+   * Phone Number
+   * Email
+   * Availability
+   * List of Certifications
+* Creation
+   * Availability
+   * Rates
+   * Location
+* Profile
+   * Preferences 
    * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
-
+   
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
