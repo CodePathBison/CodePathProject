@@ -109,6 +109,17 @@ Profile
 | certs    | String   | user's certifications           |
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+-- Home Screen
+    - (Read/GET) Query all posts where babysitter is available today
+    ```swift
+    let query = PFQuery(className:"Post")
+    let currentDate = Date()
+    query.whereKey(date, equalTo: currentDate)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       } else if let posts = posts {
+          print("Successfully retrieved \(posts.count) posts.")
+    ```
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
