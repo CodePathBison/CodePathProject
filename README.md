@@ -89,7 +89,25 @@ An app to allow Black parents to find Black babysitters in their area.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Listing
+| Property      | Type     | Description                     |
+|---------------|----------|---------------------------------|
+| objectId      | String   | unique id for user listing      |
+| name          | String   | user's name                     |
+| image         | File     | image that user includes        |
+| location      | GeoPoint | location of user's availability |
+| dateAvailable | DateTime | booking availability for user   |
+| rate          | Number   | hourly rate                     |
+
+Profile
+| Property | Type     | Description                     |
+|----------|----------|---------------------------------|
+| userId   | String   | unique id for user              |
+| name     | String   | user's name                     |
+| image    | File     | image that user includes        |
+| location | GeoPoint | location of user's availability |
+| certs    | String   | user's certifications           |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
