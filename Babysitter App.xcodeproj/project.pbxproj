@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CF152127FCEC1D006B84AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF152027FCEC1D006B84AE /* AppDelegate.swift */; };
+		69CF152327FCEC1D006B84AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF152227FCEC1D006B84AE /* SceneDelegate.swift */; };
+		69CF152827FCEC1D006B84AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CF152627FCEC1D006B84AE /* Main.storyboard */; };
+		69CF152A27FCEC1F006B84AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CF152927FCEC1F006B84AE /* Assets.xcassets */; };
+		69CF152D27FCEC1F006B84AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CF152B27FCEC1F006B84AE /* LaunchScreen.storyboard */; };
+		69CF153827FCEC1F006B84AE /* Babysitter_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF153727FCEC1F006B84AE /* Babysitter_AppTests.swift */; };
+		69CF154227FCEC1F006B84AE /* Babysitter_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF154127FCEC1F006B84AE /* Babysitter_AppUITests.swift */; };
+		69CF154427FCEC1F006B84AE /* Babysitter_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF154327FCEC1F006B84AE /* Babysitter_AppUITestsLaunchTests.swift */; };
+		69CF155127FCF10B006B84AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF155027FCF10B006B84AE /* LoginViewController.swift */; };
+		69CF155327FCF11B006B84AE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF155227FCF11B006B84AE /* FeedViewController.swift */; };
+		94ECBDF25EC8A800B1B0C45E /* Pods_Babysitter_App_Babysitter_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B457B0966FF04600EB0C332F /* Pods_Babysitter_App_Babysitter_AppUITests.framework */; };
+		A1587F67B790B1D00DB6DD81 /* Pods_Babysitter_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFC4E0D39C3776B54E91EB0 /* Pods_Babysitter_AppTests.framework */; };
+		F78350360DE877754D3E5039 /* Pods_Babysitter_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE11105ADF710E11581346 /* Pods_Babysitter_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69CF153427FCEC1F006B84AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CF151527FCEC1D006B84AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CF151C27FCEC1D006B84AE;
+			remoteInfo = "Babysitter App";
+		};
+		69CF153E27FCEC1F006B84AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CF151527FCEC1D006B84AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CF151C27FCEC1D006B84AE;
+			remoteInfo = "Babysitter App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE20B8E144C633375A2FB81 /* Pods-Babysitter App-Babysitter AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App-Babysitter AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA3D180471A9E347D4C6C80 /* Pods-Babysitter AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter AppTests.release.xcconfig"; path = "Target Support Files/Pods-Babysitter AppTests/Pods-Babysitter AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		31932382BABA518CFDDB34D0 /* Pods-Babysitter App-Babysitter AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App-Babysitter AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56AE11105ADF710E11581346 /* Pods_Babysitter_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babysitter_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CF151D27FCEC1D006B84AE /* Babysitter App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Babysitter App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CF152027FCEC1D006B84AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69CF152227FCEC1D006B84AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69CF152727FCEC1D006B84AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69CF152927FCEC1F006B84AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69CF152C27FCEC1F006B84AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69CF152E27FCEC1F006B84AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CF153327FCEC1F006B84AE /* Babysitter AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babysitter AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CF153727FCEC1F006B84AE /* Babysitter_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babysitter_AppTests.swift; sourceTree = "<group>"; };
+		69CF153D27FCEC1F006B84AE /* Babysitter AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babysitter AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CF154127FCEC1F006B84AE /* Babysitter_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babysitter_AppUITests.swift; sourceTree = "<group>"; };
+		69CF154327FCEC1F006B84AE /* Babysitter_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babysitter_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69CF155027FCF10B006B84AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69CF155227FCF11B006B84AE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		730404AE8FECE319EAE11EA9 /* Pods-Babysitter App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App.debug.xcconfig"; path = "Target Support Files/Pods-Babysitter App/Pods-Babysitter App.debug.xcconfig"; sourceTree = "<group>"; };
+		9913C476D2B680EC4334F2AC /* Pods-Babysitter App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App.release.xcconfig"; path = "Target Support Files/Pods-Babysitter App/Pods-Babysitter App.release.xcconfig"; sourceTree = "<group>"; };
+		9CFC4E0D39C3776B54E91EB0 /* Pods_Babysitter_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babysitter_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B457B0966FF04600EB0C332F /* Pods_Babysitter_App_Babysitter_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babysitter_App_Babysitter_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD624BD53569C3274272EA6 /* Pods-Babysitter AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Babysitter AppTests/Pods-Babysitter AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CF151A27FCEC1D006B84AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78350360DE877754D3E5039 /* Pods_Babysitter_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF153027FCEC1F006B84AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1587F67B790B1D00DB6DD81 /* Pods_Babysitter_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF153A27FCEC1F006B84AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ECBDF25EC8A800B1B0C45E /* Pods_Babysitter_App_Babysitter_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CF151427FCEC1D006B84AE = {
+			isa = PBXGroup;
+			children = (
+				69CF151F27FCEC1D006B84AE /* Babysitter App */,
+				69CF153627FCEC1F006B84AE /* Babysitter AppTests */,
+				69CF154027FCEC1F006B84AE /* Babysitter AppUITests */,
+				69CF151E27FCEC1D006B84AE /* Products */,
+				6D2DA7B871CC50DC1E58C93C /* Pods */,
+				C289147DBBEC9C06F8174FAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69CF151E27FCEC1D006B84AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CF151D27FCEC1D006B84AE /* Babysitter App.app */,
+				69CF153327FCEC1F006B84AE /* Babysitter AppTests.xctest */,
+				69CF153D27FCEC1F006B84AE /* Babysitter AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CF151F27FCEC1D006B84AE /* Babysitter App */ = {
+			isa = PBXGroup;
+			children = (
+				69CF152027FCEC1D006B84AE /* AppDelegate.swift */,
+				69CF152227FCEC1D006B84AE /* SceneDelegate.swift */,
+				69CF152627FCEC1D006B84AE /* Main.storyboard */,
+				69CF155027FCF10B006B84AE /* LoginViewController.swift */,
+				69CF155227FCF11B006B84AE /* FeedViewController.swift */,
+				69CF152927FCEC1F006B84AE /* Assets.xcassets */,
+				69CF152B27FCEC1F006B84AE /* LaunchScreen.storyboard */,
+				69CF152E27FCEC1F006B84AE /* Info.plist */,
+			);
+			path = "Babysitter App";
+			sourceTree = "<group>";
+		};
+		69CF153627FCEC1F006B84AE /* Babysitter AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				69CF153727FCEC1F006B84AE /* Babysitter_AppTests.swift */,
+			);
+			path = "Babysitter AppTests";
+			sourceTree = "<group>";
+		};
+		69CF154027FCEC1F006B84AE /* Babysitter AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69CF154127FCEC1F006B84AE /* Babysitter_AppUITests.swift */,
+				69CF154327FCEC1F006B84AE /* Babysitter_AppUITestsLaunchTests.swift */,
+			);
+			path = "Babysitter AppUITests";
+			sourceTree = "<group>";
+		};
+		6D2DA7B871CC50DC1E58C93C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				730404AE8FECE319EAE11EA9 /* Pods-Babysitter App.debug.xcconfig */,
+				9913C476D2B680EC4334F2AC /* Pods-Babysitter App.release.xcconfig */,
+				0AE20B8E144C633375A2FB81 /* Pods-Babysitter App-Babysitter AppUITests.debug.xcconfig */,
+				31932382BABA518CFDDB34D0 /* Pods-Babysitter App-Babysitter AppUITests.release.xcconfig */,
+				BDD624BD53569C3274272EA6 /* Pods-Babysitter AppTests.debug.xcconfig */,
+				2BA3D180471A9E347D4C6C80 /* Pods-Babysitter AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C289147DBBEC9C06F8174FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AE11105ADF710E11581346 /* Pods_Babysitter_App.framework */,
+				B457B0966FF04600EB0C332F /* Pods_Babysitter_App_Babysitter_AppUITests.framework */,
+				9CFC4E0D39C3776B54E91EB0 /* Pods_Babysitter_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69CF151C27FCEC1D006B84AE /* Babysitter App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CF154727FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter App" */;
+			buildPhases = (
+				AA885797F29E7650C0AB66B6 /* [CP] Check Pods Manifest.lock */,
+				69CF151927FCEC1D006B84AE /* Sources */,
+				69CF151A27FCEC1D006B84AE /* Frameworks */,
+				69CF151B27FCEC1D006B84AE /* Resources */,
+				D76C2F00A230281B5D1D9616 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Babysitter App";
+			productName = "Babysitter App";
+			productReference = 69CF151D27FCEC1D006B84AE /* Babysitter App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69CF153227FCEC1F006B84AE /* Babysitter AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CF154A27FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter AppTests" */;
+			buildPhases = (
+				F3752AB361B971B5A87E02EA /* [CP] Check Pods Manifest.lock */,
+				69CF152F27FCEC1F006B84AE /* Sources */,
+				69CF153027FCEC1F006B84AE /* Frameworks */,
+				69CF153127FCEC1F006B84AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CF153527FCEC1F006B84AE /* PBXTargetDependency */,
+			);
+			name = "Babysitter AppTests";
+			productName = "Babysitter AppTests";
+			productReference = 69CF153327FCEC1F006B84AE /* Babysitter AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69CF153C27FCEC1F006B84AE /* Babysitter AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CF154D27FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter AppUITests" */;
+			buildPhases = (
+				018D123A9AEACDD1D28F35DC /* [CP] Check Pods Manifest.lock */,
+				69CF153927FCEC1F006B84AE /* Sources */,
+				69CF153A27FCEC1F006B84AE /* Frameworks */,
+				69CF153B27FCEC1F006B84AE /* Resources */,
+				3CCE1D7B352AFE12AD5DAB00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CF153F27FCEC1F006B84AE /* PBXTargetDependency */,
+			);
+			name = "Babysitter AppUITests";
+			productName = "Babysitter AppUITests";
+			productReference = 69CF153D27FCEC1F006B84AE /* Babysitter AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CF151527FCEC1D006B84AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					69CF151C27FCEC1D006B84AE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					69CF153227FCEC1F006B84AE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 69CF151C27FCEC1D006B84AE;
+					};
+					69CF153C27FCEC1F006B84AE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 69CF151C27FCEC1D006B84AE;
+					};
+				};
+			};
+			buildConfigurationList = 69CF151827FCEC1D006B84AE /* Build configuration list for PBXProject "Babysitter App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69CF151427FCEC1D006B84AE;
+			productRefGroup = 69CF151E27FCEC1D006B84AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CF151C27FCEC1D006B84AE /* Babysitter App */,
+				69CF153227FCEC1F006B84AE /* Babysitter AppTests */,
+				69CF153C27FCEC1F006B84AE /* Babysitter AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CF151B27FCEC1D006B84AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CF152D27FCEC1F006B84AE /* LaunchScreen.storyboard in Resources */,
+				69CF152A27FCEC1F006B84AE /* Assets.xcassets in Resources */,
+				69CF152827FCEC1D006B84AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF153127FCEC1F006B84AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF153B27FCEC1F006B84AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018D123A9AEACDD1D28F35DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babysitter App-Babysitter AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CCE1D7B352AFE12AD5DAB00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA885797F29E7650C0AB66B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babysitter App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76C2F00A230281B5D1D9616 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Babysitter App/Pods-Babysitter App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Babysitter App/Pods-Babysitter App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Babysitter App/Pods-Babysitter App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3752AB361B971B5A87E02EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Babysitter AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CF151927FCEC1D006B84AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CF155127FCF10B006B84AE /* LoginViewController.swift in Sources */,
+				69CF152127FCEC1D006B84AE /* AppDelegate.swift in Sources */,
+				69CF155327FCF11B006B84AE /* FeedViewController.swift in Sources */,
+				69CF152327FCEC1D006B84AE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF152F27FCEC1F006B84AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CF153827FCEC1F006B84AE /* Babysitter_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CF153927FCEC1F006B84AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CF154227FCEC1F006B84AE /* Babysitter_AppUITests.swift in Sources */,
+				69CF154427FCEC1F006B84AE /* Babysitter_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69CF153527FCEC1F006B84AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CF151C27FCEC1D006B84AE /* Babysitter App */;
+			targetProxy = 69CF153427FCEC1F006B84AE /* PBXContainerItemProxy */;
+		};
+		69CF153F27FCEC1F006B84AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CF151C27FCEC1D006B84AE /* Babysitter App */;
+			targetProxy = 69CF153E27FCEC1F006B84AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69CF152627FCEC1D006B84AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CF152727FCEC1D006B84AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69CF152B27FCEC1F006B84AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CF152C27FCEC1F006B84AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69CF154527FCEC1F006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69CF154627FCEC1F006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69CF154827FCEC1F006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730404AE8FECE319EAE11EA9 /* Pods-Babysitter App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Babysitter App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CF154927FCEC1F006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9913C476D2B680EC4334F2AC /* Pods-Babysitter App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Babysitter App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69CF154B27FCEC1F006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD624BD53569C3274272EA6 /* Pods-Babysitter AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babysitter App.app/Babysitter App";
+			};
+			name = Debug;
+		};
+		69CF154C27FCEC1F006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3D180471A9E347D4C6C80 /* Pods-Babysitter AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babysitter App.app/Babysitter App";
+			};
+			name = Release;
+		};
+		69CF154E27FCEC1F006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE20B8E144C633375A2FB81 /* Pods-Babysitter App-Babysitter AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Babysitter App";
+			};
+			name = Debug;
+		};
+		69CF154F27FCEC1F006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31932382BABA518CFDDB34D0 /* Pods-Babysitter App-Babysitter AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Babysitter-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Babysitter App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CF151827FCEC1D006B84AE /* Build configuration list for PBXProject "Babysitter App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CF154527FCEC1F006B84AE /* Debug */,
+				69CF154627FCEC1F006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CF154727FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CF154827FCEC1F006B84AE /* Debug */,
+				69CF154927FCEC1F006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CF154A27FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CF154B27FCEC1F006B84AE /* Debug */,
+				69CF154C27FCEC1F006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CF154D27FCEC1F006B84AE /* Build configuration list for PBXNativeTarget "Babysitter AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CF154E27FCEC1F006B84AE /* Debug */,
+				69CF154F27FCEC1F006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CF151527FCEC1D006B84AE /* Project object */;
+}

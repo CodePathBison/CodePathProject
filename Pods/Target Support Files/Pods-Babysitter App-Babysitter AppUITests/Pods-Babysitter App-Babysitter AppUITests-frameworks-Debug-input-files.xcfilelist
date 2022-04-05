@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Babysitter App-Babysitter AppUITests/Pods-Babysitter App-Babysitter AppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework
+${BUILT_PRODUCTS_DIR}/Parse/Parse.framework

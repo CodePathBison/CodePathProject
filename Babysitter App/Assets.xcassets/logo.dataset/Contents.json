@@ -1,0 +1,17 @@
+{
+  "data" : [
+    {
+      "filename" : "bea5adbf7c646f1a2a3a7b4f9ec368cd.gif",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "bea5adbf7c646f1a2a3a7b4f9ec368cd-1.gif",
+      "idiom" : "iphone",
+      "universal-type-identifier" : "com.compuserve.gif"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

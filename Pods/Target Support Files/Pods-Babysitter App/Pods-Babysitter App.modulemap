@@ -1,0 +1,6 @@
+framework module Pods_Babysitter_App {
+  umbrella header "Pods-Babysitter App-umbrella.h"
+
+  export *
+  module * { export * }
+}
