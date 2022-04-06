@@ -8,7 +8,7 @@ target 'Babysitter App' do
      pod 'Parse'
      pod 'AlamofireImage'
   # Pods for Babysitter App
-
+     pod 'Parse'
   target 'Babysitter AppTests' do
     inherit! :search_paths
     # Pods for testing
