@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,20 +74,29 @@
                     <connections>
                         <outlet property="passwordField" destination="Nl8-Fh-9d8" id="vK6-sM-Sop"/>
                         <outlet property="usernameField" destination="yFQ-qD-Xej" id="ZTV-9H-wf1"/>
-                        <segue destination="Zct-xb-tBH" kind="presentation" identifier="loginSegue" id="AaD-LT-HE8"/>
+                        <segue destination="ZGR-hr-PQ9" kind="presentation" identifier="loginSegue" id="pbc-9z-zqm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="68"/>
+            <point key="canvasLocation" x="890" y="-715"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="yaQ-dq-0OD">
             <objects>
-                <viewController id="8vT-Ax-ed7" customClass="FeedViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedViewController" id="8vT-Ax-ed7" customClass="FeedViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LwJ-W9-DMC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="feedview placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f11-WY-xkq">
+                                <rect key="frame" x="120" y="295" width="163" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="skX-SC-qdQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -95,12 +104,88 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34f-jx-0ju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1800.0000000000002" y="67.633928571428569"/>
+            <point key="canvasLocation" x="890" y="822"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Booking View Controller-->
+        <scene sceneID="mpv-se-H7W">
+            <objects>
+                <viewController storyboardIdentifier="BookingViewController" id="Raa-r3-eJJ" customClass="BookingViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C4H-54-TgJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="bookingview placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xd9-9K-bBr">
+                                <rect key="frame" x="112" y="318" width="190" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TFM-Py-yhZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aGg-WM-Dr5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xR7-Lj-sDZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738" y="822"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="nUB-wR-zTx">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" id="YLK-J6-bye" customClass="ProfileViewController" customModule="Babysitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3nT-jc-OIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="profileview placeholder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSZ-O1-Vgf">
+                                <rect key="frame" x="112" y="344" width="177" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Asa-Hs-SCZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zSP-D6-zJL">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="hvy-Gr-amf">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="YLK-J6-bye" id="cFe-ZG-C9E"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaY-4R-3zC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2577" y="822"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zed-UA-zVE">
+            <objects>
+                <tabBarController storyboardIdentifier="tabBarController" modalPresentationStyle="fullScreen" id="ZGR-hr-PQ9" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wcs-Wf-pjr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zct-xb-tBH" kind="relationship" relationship="viewControllers" id="okQ-pD-dD8"/>
+                        <segue destination="UVH-Xh-PVR" kind="relationship" relationship="viewControllers" id="ZgV-gT-2ph"/>
+                        <segue destination="bS4-js-2gt" kind="relationship" relationship="viewControllers" id="BfC-Ij-Yuw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKp-dF-5Rh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738" y="-715"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="EAY-9a-iIB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Zct-xb-tBH" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Zct-xb-tBH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="square.grid.3x2.fill" catalog="system" id="JTP-hZ-aci"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DjX-4Q-V3G">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -115,8 +200,50 @@
             </objects>
             <point key="canvasLocation" x="889.85507246376824" y="67.633928571428569"/>
         </scene>
+        <!--Booking-->
+        <scene sceneID="mCo-XV-lFY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UVH-Xh-PVR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Booking" image="rectangle.badge.person.crop" catalog="system" id="vcv-nc-lq5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y7i-RG-5OI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Raa-r3-eJJ" kind="relationship" relationship="rootViewController" id="sLt-TT-gCZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zah-Fi-cI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1737.68115942029" y="67.633928571428569"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Q1I-0b-mgf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bS4-js-2gt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle.fill" catalog="system" id="kUN-Zl-58z"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sfe-rd-Zmo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YLK-J6-bye" kind="relationship" relationship="rootViewController" id="3O8-sD-WKT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b79-K7-Dws" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576.811594202899" y="67.633928571428569"/>
+        </scene>
     </scenes>
+    <color key="tintColor" red="0.67058825489999996" green="0.60392159219999997" blue="0.93725490570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="rectangle.badge.person.crop" catalog="system" width="128" height="95"/>
+        <image name="square.grid.3x2.fill" catalog="system" width="128" height="80"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

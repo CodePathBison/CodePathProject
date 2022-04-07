@@ -1,15 +1,15 @@
 //
-//  FeedViewController.swift
+//  BookingViewController.swift
 //  Babysitter App
 //
-//  Created by Akiria A on 4/5/22.
+//  Created by Akiria A on 4/7/22.
 //
 
 import UIKit
 import Parse
 import AlamofireImage
 
-class FeedViewController: UIViewController {
+class BookingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
