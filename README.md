@@ -49,6 +49,9 @@ An app to allow Black parents to find Black babysitters in their area.
 * Profile
    * Users can view their identity
 
+### App Walkthrough GIF
+
+<img src="http://g.recordit.co/GYs09Kk2Tq.gif" width=250><br>
 
 ### 3. Navigation
 
