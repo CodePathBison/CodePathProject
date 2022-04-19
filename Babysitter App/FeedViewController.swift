@@ -11,10 +11,7 @@ import AlamofireImage
 
 class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    
     @IBOutlet weak var tableView: UITableView!
-
-//    struct Array<Element>
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +26,6 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = UITableViewCell()
-        
         
         let sitters = ["""
                        Jean Deaux
@@ -86,13 +81,10 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
                        $33/hr
                        """]
         let cell = tableView.dequeueReusableCell(withIdentifier: "SitterCell") as! SitterCell
-//        let cell = tableView
+
         cell.textLabel!.numberOfLines = 0;
         let SitterInfo = sitters[indexPath.row]
-//        for i in sitters{
-//            cell.textLabel!.text = i
-//        }
-//        cell.textLabel!.text = sitters.randomElement()
+
         cell.sitterInfo.text = SitterInfo
         return cell
     }

@@ -9,8 +9,11 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var sitterImage2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        sitterImage2.layer.cornerRadius = sitterImage2.frame.height/2
 
         // Do any additional setup after loading the view.
     }

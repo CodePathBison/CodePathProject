@@ -11,8 +11,12 @@ import AlamofireImage
 
 class ProfileViewController: UIViewController {
 
+    
+    @IBOutlet weak var parentImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        parentImage.layer.cornerRadius = parentImage.frame.height/2
 
         // Do any additional setup after loading the view.
     }

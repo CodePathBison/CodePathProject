@@ -1,13 +1,14 @@
 {
   "data" : [
     {
-      "filename" : "bea5adbf7c646f1a2a3a7b4f9ec368cd.gif",
-      "idiom" : "universal"
+      "filename" : "village.JPEG",
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.jpeg"
     },
     {
-      "filename" : "bea5adbf7c646f1a2a3a7b4f9ec368cd-1.gif",
+      "filename" : "village-1.JPEG",
       "idiom" : "iphone",
-      "universal-type-identifier" : "com.compuserve.gif"
+      "universal-type-identifier" : "public.jpeg"
     }
   ],
   "info" : {
