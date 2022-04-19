@@ -28,9 +28,9 @@ An app to allow Black parents to find Black babysitters in their area.
 **Required Must-have Stories**
 
 - [x] Create an account/Login
-- [ ] List availability/rates for babysitting
-- [ ] Scroll through available babysitters
-- [ ] Book a babysitter
+- [x] List availability/rates for babysitting
+- [x] Scroll through available babysitters
+- [x] Book a babysitter
 
 **Optional Nice-to-have Stories**
 
