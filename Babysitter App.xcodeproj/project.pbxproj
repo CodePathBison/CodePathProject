@@ -19,6 +19,9 @@
 		69CF155327FCF11B006B84AE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF155227FCF11B006B84AE /* FeedViewController.swift */; };
 		69CF155527FF7F99006B84AE /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF155427FF7F98006B84AE /* BookingViewController.swift */; };
 		69CF155727FF7FB1006B84AE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CF155627FF7FB1006B84AE /* ProfileViewController.swift */; };
+		69F8D36A280E03E10008CD57 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8D369280E03E10008CD57 /* DetailViewController.swift */; };
+		69F8D36C280E15990008CD57 /* SitterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8D36B280E15990008CD57 /* SitterCell.swift */; };
+		69F8D36E280E34E10008CD57 /* BookedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8D36D280E34E10008CD57 /* BookedCell.swift */; };
 		94ECBDF25EC8A800B1B0C45E /* Pods_Babysitter_App_Babysitter_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B457B0966FF04600EB0C332F /* Pods_Babysitter_App_Babysitter_AppUITests.framework */; };
 		A1587F67B790B1D00DB6DD81 /* Pods_Babysitter_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFC4E0D39C3776B54E91EB0 /* Pods_Babysitter_AppTests.framework */; };
 		F78350360DE877754D3E5039 /* Pods_Babysitter_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE11105ADF710E11581346 /* Pods_Babysitter_App.framework */; };
@@ -62,6 +65,9 @@
 		69CF155227FCF11B006B84AE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		69CF155427FF7F98006B84AE /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		69CF155627FF7FB1006B84AE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		69F8D369280E03E10008CD57 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		69F8D36B280E15990008CD57 /* SitterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitterCell.swift; sourceTree = "<group>"; };
+		69F8D36D280E34E10008CD57 /* BookedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedCell.swift; sourceTree = "<group>"; };
 		730404AE8FECE319EAE11EA9 /* Pods-Babysitter App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App.debug.xcconfig"; path = "Target Support Files/Pods-Babysitter App/Pods-Babysitter App.debug.xcconfig"; sourceTree = "<group>"; };
 		9913C476D2B680EC4334F2AC /* Pods-Babysitter App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Babysitter App.release.xcconfig"; path = "Target Support Files/Pods-Babysitter App/Pods-Babysitter App.release.xcconfig"; sourceTree = "<group>"; };
 		9CFC4E0D39C3776B54E91EB0 /* Pods_Babysitter_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Babysitter_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,9 +132,12 @@
 				69CF152227FCEC1D006B84AE /* SceneDelegate.swift */,
 				69CF152627FCEC1D006B84AE /* Main.storyboard */,
 				69CF155427FF7F98006B84AE /* BookingViewController.swift */,
+				69F8D36D280E34E10008CD57 /* BookedCell.swift */,
 				69CF155627FF7FB1006B84AE /* ProfileViewController.swift */,
 				69CF155027FCF10B006B84AE /* LoginViewController.swift */,
 				69CF155227FCF11B006B84AE /* FeedViewController.swift */,
+				69F8D369280E03E10008CD57 /* DetailViewController.swift */,
+				69F8D36B280E15990008CD57 /* SitterCell.swift */,
 				69CF152927FCEC1F006B84AE /* Assets.xcassets */,
 				69CF152B27FCEC1F006B84AE /* LaunchScreen.storyboard */,
 				69CF152E27FCEC1F006B84AE /* Info.plist */,
@@ -416,11 +425,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				69CF155727FF7FB1006B84AE /* ProfileViewController.swift in Sources */,
+				69F8D36E280E34E10008CD57 /* BookedCell.swift in Sources */,
 				69CF155127FCF10B006B84AE /* LoginViewController.swift in Sources */,
 				69CF152127FCEC1D006B84AE /* AppDelegate.swift in Sources */,
 				69CF155327FCF11B006B84AE /* FeedViewController.swift in Sources */,
 				69CF155527FF7F99006B84AE /* BookingViewController.swift in Sources */,
 				69CF152327FCEC1D006B84AE /* SceneDelegate.swift in Sources */,
+				69F8D36C280E15990008CD57 /* SitterCell.swift in Sources */,
+				69F8D36A280E03E10008CD57 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

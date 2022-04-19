@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3DE84569-C473-4E15-ACA3-5A0E6BFC1AED"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Babysitter App/BookedCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "BookedCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - 93fedddd75f3b8c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.bookedPhoto.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - 43ef2821713c94d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.bookedPhoto.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - 6c5a08b115469b37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.bookedPhoto.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - c88ff5560e161bff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.bookedPhoto.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - 7f45aa2358b3dd60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Babysitter_App.BookedCell"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "2D6F2FC2-58A7-465F-8EA4-4CA4DB14E449 - d9b220542996d25c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Babysitter_App.BookedCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Babysitter_App.BookedCell&gt;"
+                  moduleName = "Babysitter App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akiria/Desktop/Spring%202022/Mobile%20App%20Dev/Babysitter%20App/Babysitter%20App/BookedCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
